@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect on Link Click</title>
+    <script>
+        function handleClick() {
+            // Perform the action you want, such as redirecting to another page
+            window.location.href = 'https://example.com'; // Replace with the URL you want to redirect to
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="handleClick(); return false;">Click here to perform an action</a>
+</body>
+</html>
